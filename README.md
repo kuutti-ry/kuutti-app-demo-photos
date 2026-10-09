@@ -10,7 +10,7 @@ The pictures are dedicated to the public domain under [CC0 1.0](LICENSE): purely
 
 ## Removal requests
 
-If a picture here looks like you, or should not be here for another reason, write to hello@kuutti.app. The picture is removed and a release without it is published.
+If a picture here looks like you, or should not be here for another reason, write to privacy@kuutti.app. The picture is removed and a release without it is published.
 
 ## The personas
 
