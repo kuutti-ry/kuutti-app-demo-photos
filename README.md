@@ -38,7 +38,8 @@ The key is the persona's id: the folder of its pictures (`faces/<key>/`), the lo
 
 ```
 faces/<key>/*.jpg     a persona's pictures, 1200x1600 JPEG without metadata
-negatives/*.jpg       what moderation refuses: no face, several people, text; and the EXIF test file
+negatives/*.jpg       what moderation refuses: no face, several people, text; the EXIF test file;
+                      and probes of the check's labels: sauna, swimwear, a rifle, fake blood, a beer, a pike
 manifest.json         every file with its SHA-256 and what it is for
 PROVENANCE.md         every file with its source and terms
 LICENSE               CC0 1.0
