@@ -14,7 +14,7 @@ If a picture here looks like you, or should not be here for another reason, writ
 
 ## The personas
 
-The key is the persona's id: the folder of its pictures (`faces/<key>/`), the login at the app's mock bank, and the key of its story. A key is never renamed and never reused. The app's `packages/db/src/seed/personas.ts` and `histories.ts` are the source of this table; the codes are those of the test persons of Telia's pre-production bed, artificial by the population register's rule (individual number 900 to 999).
+The key is the persona's id: the folder of its pictures (`faces/<key>/`), the login at the app's mock bank, and the key of its story. A key is never renamed and never reused. The app's `packages/db/src/seed/personas.ts` and `histories.ts` are the source of this table; the codes are those of the test persons of Telia's pre-production bed, or exist at the app's mock bank only, all artificial by the population register's rule (individual number 900 to 999).
 
 | key | name | born | test bank | in the demo | pictures |
 |---|---|---|---|---|---|
@@ -26,6 +26,11 @@ The key is the persona's id: the folder of its pictures (`faces/<key>/`), the lo
 | `kerttu` | Kerttu Åkerlund | 1.2.1980 | Säästöpankki `22222222` | accepted an older wording of the terms | 4 |
 | `tapio` | Tapio Heikkinen | 7.7.1970 | OP, prefilled | banned | 3 |
 | `ilona` | Ilona Öhman | 1.1.1970 | Aktia, prefilled | deleted her account | 3 |
+| `iida` | Iida Mattila | 11.3.1990 | mock bank only | a complete profile, and a round for the day | 3 |
+| `henna` | Henna Laaksonen | 27.5.1989 | mock bank only | a card in Iida's round, who liked her | 2 |
+| `katja` | Katja Rautio | 19.11.1989 | mock bank only | a card in Iida's round | 2 |
+| `minna` | Minna Peltonen | 8.1.1990 | mock bank only | a card in Iida's round | 2 |
+| `riikka` | Riikka Kivelä | 30.8.1989 | mock bank only | a card in Iida's round | 2 |
 
 ## Rules
 
