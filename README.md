@@ -1,6 +1,6 @@
 # kuutti-app-demo-photos
 
-Test and demo pictures for [Kuutti](https://github.com/kuutti-ry/kuutti-app), a free, non-commercial dating app for Finland: the faces of the demo personas, the pictures the moderation queue is meant to refuse, and later a pool of faces for the synthetic population.
+Test and demo pictures for [Kuutti](https://github.com/kuutti-ry/kuutti-app), a free, non-commercial dating app for Finland: the faces of the demo personas and of the cast, the pictures the moderation queue is meant to refuse, and later a pool of faces for the synthetic population.
 
 > **Every picture here is AI-generated, and nobody in them is a real person.** They are test data. Never use them as anybody's profile, on any service, nor in marketing or a store listing. `PROVENANCE.md` names the model, the prompt and the date of each file; the pictures were made with Google's Gemini API, which marks its images with an invisible SynthID watermark.
 
@@ -32,6 +32,10 @@ The key is the persona's id: the folder of its pictures (`faces/<key>/`), the lo
 | `minna` | Minna Peltonen | 8.1.1990 | mock bank only | a card in Iida's round | 2 |
 | `riikka` | Riikka Kivelä | 30.8.1989 | mock bank only | a card in Iida's round | 2 |
 
+## The cast
+
+Forty-eight invented people of three pictures each, under `faces/cast/<key>/`: the cards a demo account goes through. Nobody signs in as them, and none has a code or a test bank. The key is the folder, and it is never renamed or reused. Their names and what each picture shows are in `PROVENANCE.md`.
+
 ## Rules
 
 1. **Generated pictures only**, from a generator whose terms allow this use. Never a stock photo, never a picture scraped from anywhere, never a photo of a real person, a team member included.
@@ -43,6 +47,8 @@ The key is the persona's id: the folder of its pictures (`faces/<key>/`), the lo
 
 ```
 faces/<key>/*.jpg     a persona's pictures, 1200x1600 JPEG without metadata
+faces/cast/<key>/*.jpg
+                      the pictures of somebody of the cast, in the same format
 negatives/*.jpg       what moderation refuses: no face, several people, text; the EXIF test file;
                       and probes of the check's labels: sauna, swimwear, a rifle, fake blood, a beer, a pike
 manifest.json         every file with its SHA-256 and what it is for
